@@ -1,0 +1,182 @@
+.gallery-container{
+    width: $site-width;
+    margin: 0 auto;
+    margin-bottom: 73px;
+
+    .gallery-hero{
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        background-image: linear-gradient(
+            rgba($site-yellow, 0.7),
+            rgba($site-yellow, 0.7)
+          ), url(../images/gallery/1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items:flex-end;
+
+        .gallery-hero-number{
+            margin-bottom: -66px;
+            font-family: $gill-sans;
+            font-size: 300px;
+            color: $site-yellow;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+
+        .gallery-hero-name{
+            margin-bottom: -30px;
+            margin-left: 50px;
+            font-family: $gill-sans;
+            font-size: 140px;
+            color: $site-yellow;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+    }
+
+    .gallery2-hero{
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        background-image: linear-gradient(
+            rgba($site-pink, 0.7),
+            rgba($site-pink, 0.7)
+          ), url(../images/gallery/2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items:flex-end;
+
+        .gallery2-hero-number{
+            margin-bottom: -66px;
+            font-family: $gill-sans;
+            font-size: 300px;
+            color: $site-pink;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+
+        .gallery2-hero-name{
+            margin-bottom: -30px;
+            margin-left: 50px;
+            font-family: $gill-sans;
+            font-size: 140px;
+            color: $site-pink;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+    }
+
+    .gallery3-hero{
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        background-image: linear-gradient(
+            rgba($site-green, 0.7),
+            rgba($site-green, 0.7)
+          ), url(../images/gallery/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items:flex-end;
+
+        .gallery3-hero-number{
+            margin-bottom: -66px;
+            font-family: $gill-sans;
+            font-size: 300px;
+            color: $site-green;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+
+        .gallery3-hero-name{
+            margin-bottom: -30px;
+            margin-left: 50px;
+            font-family: $gill-sans;
+            font-size: 140px;
+            color: $site-green;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+    }
+
+    .gallery4-hero{
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        background-image: linear-gradient(
+            rgba($site-purple, 0.7),
+            rgba($site-purple, 0.7)
+          ), url(../images/gallery/4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items:flex-end;
+
+        .gallery4-hero-number{
+            margin-bottom: -66px;
+            font-family: $gill-sans;
+            font-size: 300px;
+            color: $site-purple;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+
+        .gallery4-hero-name{
+            margin-bottom: -30px;
+            margin-left: 50px;
+            font-family: $gill-sans;
+            font-size: 140px;
+            color: $site-purple;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+    }
+
+    .gallery5-hero{
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        background-image: linear-gradient(
+            rgba($site-teal, 0.7),
+            rgba($site-teal, 0.7)
+          ), url(../images/gallery/5.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items:flex-end;
+
+        .gallery5-hero-number{
+            margin-bottom: -66px;
+            font-family: $gill-sans;
+            font-size: 300px;
+            color: $site-teal;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+
+        .gallery5-hero-name{
+            margin-bottom: -30px;
+            margin-left: 50px;
+            font-family: $gill-sans;
+            font-size: 140px;
+            color: $site-teal;
+            text-shadow: 5px 5px 10px rgba(0,0,0,0.16);
+        }
+    }
+
+    .gallery-text{
+        height: 133px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .gallery-left{
+            width: 490px;
+            font-family: $gill-sans;
+        }
+
+        .gallery-right{
+            width: 451px;
+            font-family: $gill-sans;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.home-content{
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: $banner-footer-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home-content-container{
+        max-width: 789px;
+
+        .home-content-text{
+            color: #ffd140;
+            font-family: $gill-sans;
+        }
+
+        .john{
+            font-family: $ptserifregular;
+            font-size: 15px;
+            color: $site-pink;
+        }
+
+        .ceo{
+            font-family: $ptserifregular;
+            font-size: 10px;
+            color: #A8A8A8;
+        }
+    }
+}
+
+.events{
+    height: 320px;
+    width: $banner-footer-width;
+    background-color: $site-purple;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    .upcoming-container{
+        width: 1198px;
+        margin: 0 auto;
+
+        .upcoming{
+            color: white;
+            font-family: $gill-sans;
+            font-size: 25px;
+        }
+
+        .underline{
+            height: 1px;
+            width: 392px;
+            background-color: white;
+        }
+    }
+
+    .calendar-container{
+        width: 1198px;
+        height: 124px;
+        display: flex;
+        justify-content: space-between;
+
+        .calendar1{
+            width: 220px;
+            height: 124px;
+            display: flex;
+            justify-content: space-between;
+
+            .date{
+                height: 60px;
+                width: 60px;
+                background-color: $site-pink;
+
+                .date-text{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .date-number{
+                        color: white;
+                        font-size: 22px;
+                        font-family: $gill-sans;
+                        margin-top: 8px;
+                    }
+
+                    .date-month{
+                        color: white;
+                        font-size: 12px;
+                        font-family: $gill-sans;
+                        margin-top: -12px;
+                    }
+                }
+            }
+
+            .calendar-text{
+                height: 124px;
+                width: 140px;
+
+                .calendar-toptext{
+                    color: white;
+                    font-family: $gill-sans;
+                    font-size: 15px;
+                }
+
+                .calendar-bottomtext{
+                    color: $site-pink;
+                    font-family: $gill-sans;
+                    font-size: 15px;
+                    margin-top: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

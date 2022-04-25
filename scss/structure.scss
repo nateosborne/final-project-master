@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 850px) {
+  .packages-container {
+    width: $home-form-width;
+    flex-direction: column;
+    min-height: 900px;
+    width: 235px;
+    margin-left: 33%;
+    justify-content: center;
+
+    .package1 {
+      margin-bottom: 50px;
+    }
+    .package2 {
+      margin-bottom: 50px;
+    }
+    .package3 {
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .top-boxes {
+    justify-content: center;
+    .holder {
+      input {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .middle-boxes {
+    justify-content: center;
+    .holder {
+      input {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .message-box {
+    justify-content: center;
+    .holder {
+      input {
+        max-width: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .submit {
+    max-width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    max-width: 850px;
+    .footer-container {
+      justify-content: center;
+      max-width: 500px;
+    }
+  }
+}
+
+#app {
+  max-width: $site-width;
+  margin: 0 auto;
+  // min-height: 200px;
+  // background-color: bisque;
+}

@@ -1,0 +1,55 @@
+.about {
+margin-bottom: 95px;
+
+  .about-hero{
+    width: $site-width;
+    height: 378px;
+    background-image: linear-gradient(
+      rgba($site-yellow, 0.7),
+      rgba($site-yellow, 0.7)
+    ),
+    url(../images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 95px;
+    margin-bottom: -25px;
+  }
+
+  .about-header {
+    h1 {
+      font-family: $gill-sans;
+      margin-bottom: 2px;
+      font-size: 25px;
+    }
+    .rect {
+      width: 229px;
+      height: 3px;
+      background-color: black;
+    }
+    p {
+      font-size: 15px;
+      margin-top: 36px;
+      font-family: $gill-sans;
+    }
+  }
+
+  
+}
+
+.blog{
+  margin-bottom: -50px;
+
+  .blog-header {
+    margin-top: 63px;
+    h1 {
+      font-family: $gill-sans;
+      margin-bottom: 2px;
+      font-size: 25px;
+    }
+    .rect {
+      width: 229px;
+      height: 3px;
+      background-color: black;
+    }
+  }
+}

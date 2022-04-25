@@ -1,0 +1,83 @@
+.footer {
+  width: $banner-footer-width;
+  background-color: $site-pink;
+  height: 455px;
+  margin: 0 auto;
+  display: flex;
+
+  .footer-container {
+    width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 36px;
+
+    .logo-footer {
+      width: 92px;
+      height: 42px;
+      border: 2px solid white;
+      color: white;
+      font-family: $gill-sans;
+
+      p {
+        margin-top: 23px;
+      }
+    }
+
+    .address-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .address-text{
+        color: white;
+        font-family: $gill-sans;
+      }
+    }
+
+    .subscribe-container{
+      display: flex;
+
+    .subscribe-left{
+      width: 529px;
+      height: 60px;
+      background-color: rgba(255, 255, 255, .3);
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      .email-text{
+        margin-top: 15px;
+        font-family: $gill-sans;
+        color: rgba(255, 255, 255, .5);
+        margin-left: -50px;
+      }
+    }
+    .subscribe-right{
+      width: 167px;
+      height: 60px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .sub-text{
+        color: $site-pink;
+        font-family: $gill-sans;
+        margin-top: 15px;
+      }
+    }
+  }
+
+    .footer-text {
+      color: rgba(255, 255, 255, .5);
+      font-family: $gill-sans;
+    }
+    .icons {
+      color: white;
+      font-size: 30px;
+    }
+  }
+}

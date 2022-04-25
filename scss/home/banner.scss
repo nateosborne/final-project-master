@@ -1,0 +1,71 @@
+.banner {
+  max-width: $banner-footer-width;
+  height: $banner-height;
+  background-image: linear-gradient(
+      rgba($site-yellow, 0.7),
+      rgba($site-yellow, 0.7)
+    ),
+    url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+
+  .banner-header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-family: $ptserifregular;
+      color: white;
+      font-size: 40px;
+      margin-top: 160px;
+    }
+  }
+
+  .banner-header1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-family: $gill-sans;
+      color: $site-pink;
+      font-size: 20px;
+      margin-top: 0px;
+    }
+  }
+
+  .banner-header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin-top: 30px;
+      width: 750px;
+      color: white;
+      text-align: center;
+      font-size: 17px;
+      font-family: $gill-sans;
+    }
+  }
+
+  .read-more {
+    margin: 0 auto;
+    height: 40px;
+    width: 120px;
+    background-color: $site-pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    p {
+      margin-top: 14px;
+      font-family: $gill-sans;
+      color: white;
+    }
+  }
+}

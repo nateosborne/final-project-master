@@ -1,0 +1,317 @@
+.form-content {
+  max-width: $home-form-width;
+  min-height: 200px;
+  margin: $center;
+
+  .packages-container {
+    width: $home-form-width;
+    height: 300px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+
+    .package1 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-01.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package2 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-02.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package3 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-03.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .booking {
+    font-family: $proxima-nova;
+    font-size: 60px;
+    margin-top: 40px;
+  }
+
+  .top-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .holder {
+      position: relative;
+
+      .long-box {
+        width: 423px;
+      }
+
+      input {
+        width: 344px;
+        height: 58px;
+        padding-left: 10px;
+        border: 3px $site-blue;
+        border-style: solid;
+      }
+
+      i {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+    }
+  }
+
+  .middle-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .check {
+      font-family: $gill-sans;
+      font-size: 18px;
+    }
+
+    .holder {
+      position: relative;
+
+      .long-box {
+        width: 423px;
+      }
+
+      input {
+        width: 700px;
+        height: 58px;
+        padding-left: 10px;
+        border: 3px $site-blue;
+        border-style: solid;
+      }
+
+      i {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+    }
+  }
+
+  .bottom-container {
+    display: flex;
+    justify-content: space-between;
+
+    .bottom-boxes {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+
+      .check {
+        font-family: $gill-sans;
+        font-size: 18px;
+        margin-right: 40px;
+      }
+
+      .holder {
+        position: relative;
+
+        .long-box {
+          width: 423px;
+        }
+
+        input {
+          width: 100px;
+          height: 58px;
+          padding-left: 10px;
+          border: 3px $site-blue;
+          border-style: solid;
+        }
+
+        i {
+          position: absolute;
+          top: 13px;
+          right: 20px;
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  .message-box {
+    margin-top: 20px;
+    display: flex;
+
+    .holder {
+      position: relative;
+
+      .long-box {
+        width: 423px;
+      }
+
+      input {
+        width: $home-form-width;
+        height: 192px;
+        padding-left: 10px;
+        border: 3px $site-blue;
+        border-style: solid;
+      }
+
+      i {
+        position: absolute;
+        top: 13px;
+        right: 20px;
+        font-size: 30px;
+      }
+    }
+  }
+
+  .submit {
+    background-color: $site-blue;
+    width: $home-form-width;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 37px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin-top: 15px;
+      font-family: $gill-sans;
+      color: white;
+    }
+  }
+}

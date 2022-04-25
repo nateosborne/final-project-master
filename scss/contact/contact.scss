@@ -1,0 +1,81 @@
+.header-container {
+  width: $site-width;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 35px;
+
+  .header-text {
+    h1{
+      font-size: 25px;
+    }
+
+    font-family: $gill-sans;
+  }
+
+  .rect{
+    width: 229px;
+  height: 3px;
+  background-color: black;
+}
+}
+
+.contact-container {
+  height: 637px;
+  width: $site-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  .contact-left {
+
+    .contact-text {
+      margin-top: 34px;
+      font-family: $gill-sans;
+      font-size: 18px;
+      margin-bottom: 100px;
+    }
+  }
+
+  .contact-map {
+      height: 442px;
+      width: 400px;
+      background-image: url(../images/map.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+  .inputs {
+    height: 442px;
+    width: 529px;
+
+    input {
+      width: 100%;
+      border: none;
+      height: 60px;
+      background-color: #f5f5f5;
+      font-family: $gill-sans;
+      margin-bottom: 21px;
+    }
+
+    .msg {
+      height: 199px;
+    }
+
+    .sendmessage {
+      height: 60px;
+      width: 168px;
+      background-color: $site-pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-family: $gill-sans;
+        font-size: 16px;
+        color: white;
+        margin-top: 15px;
+      }
+    }
+  }
+}

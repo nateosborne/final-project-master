@@ -1,0 +1,488 @@
+.tour-hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .tour-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tours-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: $site-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tour-h1 {
+      font-size: 60px;
+      font-family: $proxima-nova;
+      color: white;
+    }
+  }
+}
+
+.form-content {
+  max-width: $home-form-width;
+  min-height: 200px;
+  margin: $center;
+
+  .packages-container-tours {
+    width: $home-form-width;
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .package1 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-01.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package2 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-02.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package3 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-03.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package4 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-04.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 50px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package5 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-05.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package6 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-06.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package7 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-07.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package8 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-08.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .package9 {
+      width: 235px;
+      height: 300px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/tour/tour-09.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .package-header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 60px;
+        }
+      }
+
+      .money {
+        display: flex;
+        justify-content: center;
+
+        p {
+          color: white;
+          font-family: $proxima-nova;
+          font-size: 30px;
+        }
+      }
+
+      .learn-more {
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+
+        a {
+          color: white;
+          font-family: $gill-sans;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

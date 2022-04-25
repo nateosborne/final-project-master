@@ -1,0 +1,94 @@
+.gallery-header{
+    width: $site-width;
+    margin: 0 auto;
+    margin-top: 63px;
+
+    h1{
+        font-size: 25px;
+        font-family: $gill-sans;
+    }
+    .rect{
+        width: 229px;
+      height: 3px;
+      background-color: black;
+    }
+}
+
+.topimages{
+    width: $site-width;
+    height: 187px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .img1{
+        height: 187px;
+        width: 489px;
+        background-image: linear-gradient(
+            rgba($site-yellow, 0.7),
+            rgba($site-yellow, 0.7)
+          ), url(../images/gallery/1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .img2{
+        height: 187px;
+        width: 187px;
+        background-image: linear-gradient(
+            rgba($site-pink, 0.7),
+            rgba($site-pink, 0.7)
+          ), url(../images/gallery/2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .img3{
+        height: 187px;
+        width: 265px;
+        background-image: linear-gradient(
+            rgba($site-green, 0.7),
+            rgba($site-green, 0.7)
+          ), url(../images/gallery/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.bottomimages{
+    width: $site-width;
+    height: 306px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    .img4{
+        height: 306px;
+        width: 603px;
+        background-image: linear-gradient(
+            rgba($site-purple, 0.7),
+            rgba($site-purple, 0.7)
+          ), url(../images/gallery/4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .img5{
+        height: 306px;
+        width: 355px;
+        background-image: linear-gradient(
+            rgba($site-teal, 0.7),
+            rgba($site-teal, 0.7)
+          ), url(../images/gallery/5.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

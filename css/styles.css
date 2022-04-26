@@ -76,11 +76,6 @@ p {
     max-width: 500px;
   }
 }
-#app {
-  max-width: 980px;
-  margin: 0 auto;
-}
-
 nav {
   max-width: 980px;
   height: 85px;
@@ -573,10 +568,14 @@ nav {
   font-size: 30px;
 }
 
-.about {
+.about-container {
+  width: 980px;
+  margin: 0 auto;
+}
+.about-container .about {
   margin-bottom: 95px;
 }
-.about .about-hero {
+.about-container .about .about-hero {
   width: 980px;
   height: 378px;
   background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/about.jpg);
@@ -585,17 +584,17 @@ nav {
   margin-top: 95px;
   margin-bottom: -25px;
 }
-.about .about-header h1 {
+.about-container .about .about-header h1 {
   font-family: GillSans;
   margin-bottom: 2px;
   font-size: 25px;
 }
-.about .about-header .rect {
+.about-container .about .about-header .rect {
   width: 229px;
   height: 3px;
   background-color: black;
 }
-.about .about-header p {
+.about-container .about .about-header p {
   font-size: 15px;
   margin-top: 36px;
   font-family: GillSans;
@@ -1623,6 +1622,24 @@ nav {
   color: white;
   font-family: GillSans;
   text-decoration: none;
+}
+
+.blog-header-container {
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+.blog-header-container .header-text {
+  font-family: GillSans;
+}
+.blog-header-container .header-text h1 {
+  font-size: 25px;
+}
+.blog-header-container .rect {
+  width: 229px;
+  height: 3px;
+  background-color: black;
 }
 
 .blog-container {

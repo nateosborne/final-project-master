@@ -1,5 +1,9 @@
-.about {
-margin-bottom: 95px;
+.about-container{
+  width: $site-width;
+  margin: 0 auto;
+
+  .about {
+  margin-bottom: 95px;
 
   .about-hero{
     width: $site-width;
@@ -32,8 +36,7 @@ margin-bottom: 95px;
       font-family: $gill-sans;
     }
   }
-
-  
+}
 }
 
 .blog{

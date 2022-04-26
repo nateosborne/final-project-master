@@ -1,3 +1,24 @@
+.blog-header-container {
+  width: $site-width;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: -30px;
+
+  .header-text {
+    h1{
+      font-size: 25px;
+    }
+
+    font-family: $gill-sans;
+  }
+
+  .rect{
+    width: 229px;
+  height: 3px;
+  background-color: black;
+}
+}
+
 .blog-container {
   height: 124px;
   width: $banner-footer-width;

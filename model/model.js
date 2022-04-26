@@ -186,14 +186,14 @@ var galleryContent = `<nav class="black-nav">
 </div>
 
 <div class="topimages">
-<a href="gallery1.html" class="img1"></a>
-<a href="gallery2.html" class="img2"></a>
-<a href="gallery3.html" class="img3"></a>
+<a href="#gallery1" class="img1"></a>
+<a href="#gallery2" class="img2"></a>
+<a href="#gallery3" class="img3"></a>
 </div>
 
 <div class="bottomimages">
-<a href="gallery4.html" class="img4"></a>
-<a href="gallery5.html" class="img5"></a>
+<a href="#gallery4" class="img4"></a>
+<a href="#gallery5" class="img5"></a>
 </div>`;
 var blogContent = `<nav class="black-nav">
 <div class="logo-black">
@@ -375,6 +375,195 @@ var contactContent = `<nav class="black-nav">
   </div>
 </div>
 <div class="contact-map"></div>
+</div>`;
+var gallery1Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+<div class="gallery-container">
+<div class="gallery-hero">
+  <p class="gallery-hero-number">1.</p>
+  <p class="gallery-hero-name">food festival</p>
+</div>
+<div class="gallery-text">
+  <div class="gallery-left">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </div>
+  <div class="gallery-right">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
+</div>`;
+var gallery2Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="gallery-container">
+<div class="gallery2-hero">
+  <p class="gallery2-hero-number">2.</p>
+  <p class="gallery2-hero-name">dee-jay</p>
+</div>
+<div class="gallery-text">
+  <div class="gallery-left">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </div>
+  <div class="gallery-right">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
+</div>`;
+var gallery3Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="gallery-container">
+<div class="gallery3-hero">
+  <p class="gallery3-hero-number">3.</p>
+  <p class="gallery3-hero-name">speech</p>
+</div>
+<div class="gallery-text">
+  <div class="gallery-left">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </div>
+  <div class="gallery-right">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
+</div>`;
+var gallery4Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="gallery-container">
+<div class="gallery4-hero">
+  <p class="gallery4-hero-number">4.</p>
+  <p class="gallery4-hero-name">open foodfest</p>
+</div>
+<div class="gallery-text">
+  <div class="gallery-left">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </div>
+  <div class="gallery-right">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
+</div>`;
+var gallery5Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="gallery-container">
+<div class="gallery5-hero">
+  <p class="gallery5-hero-number">5.</p>
+  <p class="gallery5-hero-name">international</p>
+</div>
+<div class="gallery-text">
+  <div class="gallery-left">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+    qui ratione voluptatem sequi nesciunt.
+  </div>
+  <div class="gallery-right">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
 </div>`;
 
 // export var myName = "Nate";

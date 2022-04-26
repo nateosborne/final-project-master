@@ -213,108 +213,108 @@ var blogContent = `<nav class="black-nav">
 </nav>
 
 <div class="blog-header-container">
-<div class="header-text">
-  <h1>BLOG:</h1>
-</div>
-<div class="rect"></div>
-</div>
+      <div class="header-text">
+        <h1>BLOG:</h1>
+      </div>
+      <div class="rect"></div>
+    </div>
 
-<div class="blog-total-container">
-<div class="blog-container">
-  <div class="blog-calendar-container">
-    <div class="blog-calendar1">
-      <div class="date">
-        <div class="date-text">
-          <p class="date-number">06</p>
-          <p class="date-month">JUN</p>
+    <div class="blog-total-container">
+      <div class="blog-container">
+        <div class="blog-calendar-container">
+          <div class="blog-calendar1">
+            <div class="date">
+              <a href="#blog2" class="date-text">
+                <p class="date-number">06</p>
+                <p class="date-month">JUN</p>
+              </a>
+            </div>
+            <div class="blog-calendar-text">
+              <div class="calendar-img"></div>
+              <div class="blog-calendar-toptext">Sed et persipiatis</div>
+              <div class="calendar-bottomtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid temporibus quos aspernatur
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-calendar-container">
+          <div class="blog-calendar1">
+            <div class="date">
+              <a href="#blog3" class="date-text">
+                <p class="date-number">30</p>
+                <p class="date-month">AUG</p>
+              </a>
+            </div>
+            <div class="blog-calendar-text">
+              <div class="calendar-img"></div>
+              <div class="blog-calendar-toptext">Sed et persipiatis</div>
+              <div class="calendar-bottomtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid temporibus quos aspernatur
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-calendar-container">
+          <div class="blog-calendar1">
+            <div class="date">
+              <a href="#blog5" class="date-text">
+                <p class="date-number">23</p>
+                <p class="date-month">DEC</p>
+              </a>
+            </div>
+            <div class="blog-calendar-text">
+              <div class="calendar-img"></div>
+              <div class="blog-calendar-toptext">Sed et persipiatis</div>
+              <div class="calendar-bottomtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid temporibus quos aspernatur
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="blog-calendar-text">
-        <div class="calendar-img"></div>
-        <div class="blog-calendar-toptext">Sed et persipiatis</div>
-        <div class="calendar-bottomtext">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
+      <div class="blog-container">
+        <div class="blog-calendar-container">
+          <div class="blog-calendar1">
+            <div class="date">
+              <a href="#blog1" class="date-text">
+                <p class="date-number">30</p>
+                <p class="date-month">JUL</p>
+              </a>
+            </div>
+            <div class="blog-calendar-text">
+              <div class="calendar-img"></div>
+              <div class="blog-calendar-toptext">Sed et persipiatis</div>
+              <div class="calendar-bottomtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid temporibus quos aspernatur
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-calendar-container">
+          <div class="blog-calendar1">
+            <div class="date">
+              <a href="#blog4" class="date-text">
+                <p class="date-number">23</p>
+                <p class="date-month">NOV</p>
+              </a>
+            </div>
+            <div class="blog-calendar-text">
+              <div class="calendar-img"></div>
+              <div class="blog-calendar-toptext">Sed et persipiatis</div>
+              <div class="calendar-bottomtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquid temporibus quos aspernatur
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="blog-calendar-container">
-    <div class="blog-calendar1">
-      <div class="date">
-        <div class="date-text">
-          <p class="date-number">30</p>
-          <p class="date-month">AUG</p>
-        </div>
-      </div>
-      <div class="blog-calendar-text">
-        <div class="calendar-img"></div>
-        <div class="blog-calendar-toptext">Sed et persipiatis</div>
-        <div class="calendar-bottomtext">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="blog-calendar-container">
-    <div class="blog-calendar1">
-      <div class="date">
-        <div class="date-text">
-          <p class="date-number">23</p>
-          <p class="date-month">DEC</p>
-        </div>
-      </div>
-      <div class="blog-calendar-text">
-        <div class="calendar-img"></div>
-        <div class="blog-calendar-toptext">Sed et persipiatis</div>
-        <div class="calendar-bottomtext">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="blog-container">
-  <div class="blog-calendar-container">
-    <div class="blog-calendar1">
-      <div class="date">
-        <div class="date-text">
-          <p class="date-number">30</p>
-          <p class="date-month">JUL</p>
-        </div>
-      </div>
-      <div class="blog-calendar-text">
-        <div class="calendar-img"></div>
-        <div class="blog-calendar-toptext">Sed et persipiatis</div>
-        <div class="calendar-bottomtext">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="blog-calendar-container">
-    <div class="blog-calendar1">
-      <div class="date">
-        <div class="date-text">
-          <p class="date-number">23</p>
-          <p class="date-month">NOV</p>
-        </div>
-      </div>
-      <div class="blog-calendar-text">
-        <div class="calendar-img"></div>
-        <div class="blog-calendar-toptext">Sed et persipiatis</div>
-        <div class="calendar-bottomtext">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>`;
+    </div>`;
 var contactContent = `<nav class="black-nav">
 <div class="logo-black">
   <p>eventsy</p>
@@ -562,6 +562,281 @@ var gallery5Content = `<nav class="black-nav">
     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
     consectetur, adipisci velit, sed quia non numquam eius modi tempora
     incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+  </div>
+</div>
+</div>`;
+var blog1Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="blog1-container">
+<div class="blog1-hero">
+  <div class="blog-date">
+    <div class="blog1-number">30</div>
+    <div class="blog1-month">JUL</div>
+  </div>
+</div>
+<div class="blog1-text1">
+  <div class="text1-header">
+    <p>Header #1:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+  <div class="text1-header">
+    <p>Header #2:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+</div>
+</div>`;
+var blog2Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="blog1-container">
+<div class="blog1-hero">
+  <div class="blog-date">
+    <div class="blog1-number">06</div>
+    <div class="blog1-month">JUN</div>
+  </div>
+</div>
+<div class="blog1-text1">
+  <div class="text1-header">
+    <p>Header #1:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+  <div class="text1-header">
+    <p>Header #2:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+</div>
+</div>`;
+var blog3Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="blog1-container">
+<div class="blog1-hero">
+  <div class="blog-date">
+    <div class="blog1-number">30</div>
+    <div class="blog1-month">AUG</div>
+  </div>
+</div>
+<div class="blog1-text1">
+  <div class="text1-header">
+    <p>Header #1:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+  <div class="text1-header">
+    <p>Header #2:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+</div>
+</div>`;
+var blog4Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="blog1-container">
+<div class="blog1-hero">
+  <div class="blog-date">
+    <div class="blog1-number">23</div>
+    <div class="blog1-month">NOV</div>
+  </div>
+</div>
+<div class="blog1-text1">
+  <div class="text1-header">
+    <p>Header #1:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+  <div class="text1-header">
+    <p>Header #2:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+</div>
+</div>`;
+var blog5Content = `<nav class="black-nav">
+<div class="logo-black">
+  <p>eventsy</p>
+</div>
+<div class="links-black">
+<a href="#home">home</a>
+<span>/</span>
+<a href="#about">about</a>
+<span>/</span>
+<a href="#gallery">gallery</a>
+<span>/</span>
+<a href="#blog">blog</a>
+<span>/</span>
+<a href="#contact">contact</a>
+</div>
+</nav>
+
+<div class="blog1-container">
+<div class="blog1-hero">
+  <div class="blog-date">
+    <div class="blog1-number">23</div>
+    <div class="blog1-month">DEC</div>
+  </div>
+</div>
+<div class="blog1-text1">
+  <div class="text1-header">
+    <p>Header #1:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
+  </div>
+  <div class="text1-header">
+    <p>Header #2:</p>
+  </div>
+  <div class="text1-p">
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi tempora
+      incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    </p>
   </div>
 </div>
 </div>`;

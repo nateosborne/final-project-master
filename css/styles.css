@@ -1719,6 +1719,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
 }
 .blog-total-container .blog-container .blog-calendar-container .blog-calendar1 .date .date-text .date-number {
   color: white;
